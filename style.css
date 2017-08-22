@@ -1,0 +1,26 @@
+body{
+  margin:5%;
+  font-family: sans-serif;
+}
+h1{
+  justify-content: center;
+  text-align: center;
+}
+#people {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: baseline;
+  padding: 35px 25px;
+}
+#people>div {
+  width: 20%;
+  margin: 10px;
+  text-align: center;
+  line-height: 18px;
+}
+#people>div>p {
+  font-weight: lighter;
+  font-size: 16px;
+  text-transform: capitalize;
+}
